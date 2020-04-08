@@ -5,7 +5,6 @@ body {
     background-color: #f4f4f4;
     color: #3c484e;
     font-family: 'Open Sans', sans-serif;
-    background: linear-gradient(to right, rgba(210, 255, 82, 1) 0%, rgba(145, 232, 66, 1) 100%);
 }
 
 .Header-main {
@@ -51,28 +50,22 @@ body {
 }
 
 .Pokemon-card img {
-    width: 40%;
-    display: block;
-    margin: 20px auto;
+    width: 100%;
+    height: auto;
+    border-radius: 5px 5px 0 0;
 }
 
 .Pokemon-card h2 {
     font-size: 18px;
-    font-weight: 700;
-    text-transform: capitalize;
+    font-weight: 400;
     text-align: center;
 }
 
 .Pokemon-card h3 {
     font-size: 18px;
-    font-weight: 700;
+    font-weight: 400;
     text-align: left;
     margin: 20px;
-}
-
-.Pokemon-card span {
-    font-weight: 400;
-    text-transform: capitalize;
 }
 
 .Pokemon-item {
@@ -86,15 +79,14 @@ body {
 }
 
 .Pokemon-item img {
-    width: 30%;
-    display: block;
-    margin: 20px auto;
+    width: 100%;
+    height: auto;
+    border-radius: 5px 5px 0 0;
 }
 
 .Pokemon-item h2 {
     font-size: 18px;
-    font-weight: 400;
-    text-transform: capitalize;
+    font-weight: 300;
     padding: 5px 10px;
     display: flex;
     justify-content: space-between;

@@ -5,11 +5,11 @@ const Home = async() => {
         const pokemons = await getData();
 
         const view = `
-      <div class="Characters">
+      <div class="Pokemon">
         ${pokemons.results.map((pokemon, key) => `
-          <article class="Character-item">
+          <article class="Pokemon-item">
             <a href="#/${key+1}/">
-              <img width="200" src=${pokeball} alt="pokeball">
+              <img src=${pokeball} alt="pokeball">
               <h2>${pokemon.name}</h2>
             </a>
           </article>        
