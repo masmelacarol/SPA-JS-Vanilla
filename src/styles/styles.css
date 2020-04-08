@@ -19,6 +19,10 @@ body {
     color: #15302C;
 }
 
+.Header-nav a:hover {
+    text-decoration: underline;
+}
+
 .Main {
     padding: 10px;
     grid-template-columns: minmax(auto, 976px);
@@ -31,6 +35,12 @@ body {
     grid-gap: 1.5rem;
     grid-row-gap: 1.5em;
     display: grid;
+}
+
+@media (max-width: 600px) {
+    .Pokemon {
+        grid-template-columns: repeat(1, 1fr);
+    }
 }
 
 .Pokemon-inner {
@@ -102,7 +112,12 @@ body {
 
 .Pokemon-item a {
     text-decoration: none;
-    color: #026C86;
+    color: rgb(2, 66, 12);
+}
+
+.Pokemon-item a:hover {
+    text-decoration: underline;
+    color: #ef4036;
 }
 
 @keyframes fade {

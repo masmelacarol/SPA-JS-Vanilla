@@ -21,11 +21,8 @@ const router = async() => {
     link.rel = 'shortcut icon';
     link.href = iconPokeball;
     document.getElementsByTagName('head')[0].appendChild(link);
-
     header.innerHTML = await Header();
-
     let hash = getHash();
-    console.log("router -> hash", hash)
     let route = await resolveRoutes(hash);
     let render = routes[route] ? routes[route] : NotFound;
 
