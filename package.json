@@ -1,0 +1,32 @@
+{
+    "name": "spajsvanilla",
+    "version": "1.0.0",
+    "description": "Single Page Application with JS Vanilla",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "start": "webpack-dev-server --open --mode development",
+        "build": "webpack --mode production"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/masmelacarol/SPA-JS-Vanilla.git"
+    },
+    "keywords": [
+        "javascript"
+    ],
+    "author": "Carol Masmela",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/masmelacarol/SPA-JS-Vanilla/issues"
+    },
+    "homepage": "https://github.com/masmelacarol/SPA-JS-Vanilla#readme",
+    "devDependencies": {
+        "@babel/core": "^7.9.0",
+        "babel-loader": "^8.1.0",
+        "html-webpack-plugin": "^4.0.4",
+        "webpack": "^4.42.1",
+        "webpack-cli": "^3.3.11",
+        "webpack-dev-server": "^3.10.3"
+    }
+}
