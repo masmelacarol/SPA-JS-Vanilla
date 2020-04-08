@@ -3,8 +3,8 @@ const Header = () => {
     <div class="Header-main">
       <div class="Header-logo">
         <h1>
-          <a href="/">
-            Atrápalos YA!
+          <a href="/">          
+            Pokédex.com
           </a>
         </h1>
       </div>
