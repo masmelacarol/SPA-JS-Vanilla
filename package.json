@@ -23,13 +23,13 @@
     "homepage": "https://github.com/masmelacarol/SPA-JS-Vanilla#readme",
     "devDependencies": {
         "@babel/core": "^7.11.6",
-        "babel-loader": "^8.1.0",
-        "copy-webpack-plugin": "^5.1.2",
+        "babel-loader": "^8.3.0",
+        "copy-webpack-plugin": "^11.0.0",
         "file-loader": "^6.1.0",
-        "html-webpack-plugin": "^4.4.1",
+        "html-webpack-plugin": "^5.5.0",
         "node-forge": "^0.10.0",
-        "webpack": "^4.44.1",
-        "webpack-cli": "^3.3.12",
+        "webpack": "^5.75.0",
+        "webpack-cli": "^5.0.1",
         "webpack-dev-server": "^3.11.0"
     }
 }
